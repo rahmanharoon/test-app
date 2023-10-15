@@ -10,7 +10,7 @@
     "deploy": "npm i && nuxt build && nuxt generate"
   },
   "engines": {
-    "node": ">18"
+    "node": "18.18.2"
   },
   "engineStrict": true,
   "dependencies": {
