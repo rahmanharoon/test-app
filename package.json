@@ -7,10 +7,10 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "deploy": "npm i && nuxt build && nuxt generate"
+    "deploy": "node -v && nuxt build && nuxt generate"
   },
   "engines": {
-    "node": "18.18.2"
+    "node": ">=16 <20"
   },
   "engineStrict": true,
   "dependencies": {
