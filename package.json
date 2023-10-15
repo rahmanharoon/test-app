@@ -6,7 +6,8 @@
     "dev": "HOST=0.0.0.0 PORT=2221 nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "deploy": "npm i && nuxt build && nuxt generate"
   },
   "engines": {
     "node": ">=16 <18"
